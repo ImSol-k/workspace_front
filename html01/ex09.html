@@ -9,12 +9,24 @@
 <body>
 
     <p>목차</p>
+        <ol>
+            <li><a href="ex01.html">h1~h6</a></li>
+            <li><a href="ex02.html">p br hr strong em</a></li>
+            <li><a href="ex03.html">ol ul</a></li>
+            <li><a href="ex04.html">img a</a></li>
+            <li><a href="ex05.html">table, tr, td</a></li>
+            <li><a href="ex06.html">[테이블합치기 연습문제]</a></li>
+            <li><a href="ex07.html">table, thead, tbody, tfoot</a></li>
+            <li><a href="ex08.html">[테이블합치기 연습문제]</a></li>
+            <li><a href="ex09.html">from, input, button</a></li>
+        </ol>
+        <hr>
 
     <hr>
 
     <h1>html태그</h1>
     <h2>from태그</h2>
-    <form action="데이터 보낼곳" method="">
+    <form action="" method="get">
 
         <input type="text" name="" value="" placeholder="id를 입력하세요">
         <br>
@@ -35,6 +47,7 @@
         <input type="date">
         <br><br><br>
 
+        <!-- button -->
         <label for="textId">아이디</label>
         <input id="textId" type="text" name="" value="">
         <br>
@@ -44,16 +57,58 @@
         <input type="button" value="저장(input)">
         <button type="submit">저장(button)</button>
         <br><br><br>
-
+        <!-- input -->
+        <label for="textId">아이디</label>
+        <input id="textId" type="text" name="" value="">
+        <br>
+        <label for="textPw">비밀번호</label>
+        <input id="textPw" type="password" name="" value="">
+        <br>
+        <input type="button" value="저장">
+        <br>
+        <!-- checkbox -->
+        <input id="chkbook" type="checkbox" name="hobby" value="book"><label for="chkbook">독서</label>
+        <input id="chkmusic" type="checkbox" name="hobby" value="music" checked="checked"><label for="chkmusic">음악</label>
+        <input id="chktrip" type="checkbox" name="hobby" value="trip"><label for="chktrip">여행</label>
+        <br>
         
-        <label for="chkbook">독서</label><input id="chkbook" type="checkbox" name="hobby" value="book">
-        <label for="chkmusic">음악</label><input id="chkmusic" type="checkbox" name="hobby" value="music">
-        <label for="chktrip">여행</label><input id="chktrip" type="checkbox" name="hobby" value="trip">
+        <!-- radio -->
+        <input id="rdoApple" type="radio" name="fruit" value="apple" checked="checked"><label for="rdoApple">사과</label>
+        <input id="rdoOrange" type="radio" name="fruit" value="orange"><label for="rdoOrange">오렌지</label>
+        <input id="rdoGrape" type="radio" name="fruit" value="grape"><label for="rdoGrape">포도</label>
+        <br>
+        <input id="m1" type="radio" name="month" value="1"><label for="m1">1월</label>
+        <input id="m2" type="radio" name="month" value="2"><label for="m2">2월</label>
+        <input id="m3" type="radio" name="month" value="3"><label for="m3">3월</label>
+        <input id="m4" type="radio" name="month" value="4"><label for="m4">4월</label>
+        <input id="m5" type="radio" name="month" value="5"><label for="m5">5월</label>
+        <input id="m6" type="radio" name="month" value="6"><label for="m6">6월</label>
+        <input id="m7" type="radio" name="month" value="7"><label for="m7">7월</label>
+        <input id="m8" type="radio" name="month" value="8"><label for="m8">8월</label>
+        <input id="m9" type="radio" name="month" value="9"><label for="m9">9월</label>
+        <input id="m10" type="radio" name="month" value="10"><label for="m10">10월</label>
+        <input id="m11" type="radio" name="month" value="11"><label for="m11">11월</label>
+        <input id="m12" type="radio" name="month" value="12"><label for="m12">12월</label>
+        <br><br>
+
+        <!-- select -->
+        <select name="telecom">
+            <option value="">이동통신사를 선택해주세요</option>
+            <option value="sk">SKT</option>
+            <option value="kt">KT</option>
+            <option value="lg">LGU+</option>
+        </select>
+        <br><br><br>
+
+        <!-- textarea -->
+        <textarea name="content" id="" cols="30" rows="5">내용을 입력하세요.</textarea>
         <br>
 
-        <label for="raidoApple"></label>사과<input id="" type="radio" name="" value="">
-        <label for="radi"></label>오렌지<input id="" type="radio" name="" value="">
-        <label for="chkbook"></label>포도<input id="" type="radio" name="" value="">
+        <!-- button -->  
+        <button type="submit">저장</button>
+        <button type="reset">초기화</button>
+        <button type="submit">전송</button>
+        <br>
 
     </form>
 
