@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+
+<head>
+    <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+    <title>스타일시트</title>
+    <!-- 스타일시트자리 -->
+    <style>
+        a:link {color: #FF00FF; text-decoration: none;}
+
+        /* 방문전 링크일때 자홍색 선없음 */
+        a:visited {color: #999999; text-decoration: overline;}
+
+        /* 방문했던 링크일때 회색 위에선*/
+        a:hover {color: #0000FF; text-decoration: underline; }
+
+        /* 마우스오버일때 파란색 아래선 */
+        a:active {color: #FF0000; text-decoration: line-through;}
+
+        .btn{
+            /*width: 100px;*/
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+            text-align: center;
+        }
+        .btn-red {
+            background-color: #ffcece;
+            border: 2px solid #ff9999;
+        }
+        .btn-red:hover{
+            background-color: #ff9999;
+            border: 2px solid #ff6d6d;
+        }
+        .btn-gray{
+            background-color: #c7c7c7;
+            border: 2px solid #999999;
+        }
+        .btn-gray:hover{
+            background-color: #999999;
+            border: 2px solid #6e6e6e;
+        }
+        .btn-blue{
+            background-color: #b2d6ff;
+            border: 2px solid #88c0ff;
+        }
+        .btn-blue:hover{
+            background-color: #88c0ff;
+            border: 2px solid #6db1ff;
+        }
+
+        .btn-sm{width: 92px;}
+        .btn-no{width: 120px;}
+        .btn-la{width: 150px;}
+
+
+    </style>
+</head>
+
+<body>
+    <button class="btn btn-gray">저장버튼</button>
+    <br>
+    <button class="btn btn-red">삭제버튼</button>
+    <br>
+    <button class="btn btn-blue">수정버튼</button>
+    <br><br>
+
+    <div class="btn-la btn btn-gray">저장</div>
+    <div class="btn-no btn btn-red">삭제</div>
+    <div class="btn-sm btn btn-blue">수정</div>
+    <br>
+
+</body>
+
+</html>

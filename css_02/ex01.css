@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.box-red{
+    width: 500px;
+    height: 60px;
+    background-color: #ff0000;
+}
+.box-blue{
+    width: 300px;
+    height: 80px;
+    background-color: #0000ff;
+}
+.img-profile{
+    width: 200px;
+    height: 200px;
+}
+.span-red{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #ff0000;
+}
+.span-p{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #cc00ff;
+}
+.span-oran{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #ff8800;
+}
