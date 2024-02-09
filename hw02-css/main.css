@@ -52,6 +52,12 @@ thead>tr>th{
 .t-right{
     text-align: right;
 }
+.t-right::before{
+    content: "약";
+}
+.t-right::after{
+    content: "(Mb/초)";
+}
 tbody>tr:hover{
     background-color: #edd3ed;
 }

@@ -6,7 +6,7 @@ table{
     border-collapse: collapse;
 }
 table>thead>tr{
-    background-color: #dddddd;
+    background-color: hsl(200, 100%, 84%);
     
 }
 table>thead>tr>th{
