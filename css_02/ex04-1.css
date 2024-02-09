@@ -3,24 +3,35 @@
 
 table{
     width: 900px;
-    border:1px solid #dddddd;
     border-collapse: collapse;
 }
 table>thead>tr{
     background-color: #dddddd;
+    
 }
 table>thead>tr>th{
     font-weight: bold;
 }
 table>thead>tr>th, table>tbody>tr>td{
-    border:1px solid #333333;
+    border-width:2px;
+    border-style: solid;
+    border-color: #777777;
     text-align: center;
+    border-right: none;
+    border-left: none;
+}
+table>tbody>tr>td{
+    border-style: dotted;
+    border-right: none;
+    border-left: none;
+}
+table>tbody>tr:last-child{
+    border-bottom: 2px solid #777777;
 }
 table>tbody>tr:hover{
     background-color: #ffff00;
 }
 .text-left{
-    text-align: left;
     text-decoration-line: underline;
     color: #0000ff;
 }
