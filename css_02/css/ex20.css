@@ -6,14 +6,13 @@ textarea, button, form {
     margin: 1px;
     padding: 0px; 
  }
-
- body{
+body{
     background-color: #808080;
     font-family: "맑은고딕";
     font-size: 12px;
- }
+}
 
-.clearfix::before, .clearfix::after{
+clearfix::before, .clearfix::after{
     display: block;
     content: "";
     line-height: 0;
@@ -23,7 +22,7 @@ textarea, button, form {
     clear: both;
 }
 
- ol>li{
+ol>li{
     list-style-type: none;
     
     display: inline-block;
@@ -40,49 +39,57 @@ ol>li:first-child::after{
     content: " ";
 }
 
- .content{
+.from-body{
+    
+    width: 600px;
     background-color: #ffffff;
-    width: 700px;
- }
+}
 
- .content>h3{
+.from-body>h3{
     font-size: 18px;
     font-weight: bold;
- }
+}
 
- .from-text{
+.from-title{
     display: inline-block;
-    width: 80px;
-    text-align: left;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+ .from-group{
+    padding: 10px 0px 10px 0px;
+    border-top: 2px solid #808080;
+ }
+ .from-group:first-child::after{
+    border-top: none;
  }
 
- .from-title{
-    width: 600px;
- }
+.from-btn{
+    text-align: center;
+    width: 120px;
+    padding: 10px 0px, 10px 0px;
+}
 
- .btn-size{
-    width: 60px;
-    height: 30px;
- }
- 
- .from-group{  
-    margin-bottom: 10px;
- }
+div>label{
+    font-size: 15px;
+    font-family: "맑은고딕";
+}
+
+input, select, textarea{
+    font-family: "맑은고딕";
+    font-size: 15px;
+}
 
 .from-textarea{
-    width: 680px;
-    height: 80px;
+    width: 400px;
 }
 
-.from-group>input[type="radio"], 
-.from-group>input[type="checkbox"]{
-    margin-right: 10px;
-}
-
-.btn-area{
-    padding: 20px 0px 20px 0px;
-    border-top: 3px solid #808080; 
+.from-btn2{
     text-align: center;
 }
 
-
+.end{
+    padding-bottom: 5px;
+}
