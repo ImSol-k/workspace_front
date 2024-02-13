@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+
+<head>
+    <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+    <title>스타일시트</title>
+    <!-- 스타일시트자리 -->
+    <link rel="stylesheet" href="../css/board.css">
+</head>
+
+<body>
+    <div class="content">
+        <h3>일반게시판</h3>
+
+        <div class="from-group">
+            <label class="from-text" for="sel">게시판 선택</label>
+            <select id="sel">
+                <option>선택해 주세요</option>
+                <option>공지사항</option>
+                <option>가입인사</option>
+                <option>유머게시판</option>
+                <option>일반게시판</option>
+            </select>
+        </div>
+
+        <div class="from-group">
+            <label class="from-text" for="text-title">제목</label><input class="from-title" type="text" id="text-title">
+        </div>
+
+        <div class="from-group">
+            <label class="from-text" for="text-pw">비밀번호</label><input type="password" id="text-pw">
+        </div>
+
+        <div class="from-group">
+            <span class="from-text">공개범위</span>
+            <label for="rdo-me">본인</label>
+            <input id="rdo-me" type="radio" name="scope">
+            <label for="rdo-rogin">로그인회원</label>
+            <input id="rdo-rogin" type="radio" name="scope">
+            <label for="rdo-friend">친구</label>
+            <input id="rdo-friend" type="radio" name="scope">
+            <label for="rdo-all">전체</label>
+            <input id="rdo-all" type="radio" name="scope">
+        </div>
+
+        <div class="from-group">
+            <span class="from-text">허용범위</span>
+            <label for="chk-a">댓글허용</label><input id="chk-a" type="checkbox">
+            <label for="chk-b">답글허용</label><input id="chk-b" type="checkbox">
+            <label for="chk-c">좋아요허용</label><input id="chk-c" type="checkbox">
+        </div>
+
+        <div class="from-group">
+            <textarea class="from-textarea from-group"></textarea>
+        </div>
+
+        <div class="from-group">
+            <label class="from-text btn-size" for="creat-file">첨부파일</label>
+            <input id="creat-file" type="file">
+        </div>
+
+        <div class="from-group btn-area">
+            <button class="btn-size">등록</button>
+            <button class="btn-size">초기화</button>
+        </div>
+    </div>
+</body>
+
+</html>
