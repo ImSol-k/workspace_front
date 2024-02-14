@@ -14,6 +14,7 @@ textarea,button,form {
 body{
     font-family: "맑은고딕";
     font-size: 12px;
+    background-color: #79b30d;
 }
 a:link{
     text-decoration: none;
@@ -49,27 +50,39 @@ ul, ol{
 #wrap {
     width: 1000px;
     margin: 0px auto;
+    
 }
 
 #wrap #header {    
     /*border: 1px solid #000000;*/
     padding: 10px 0px 10px 0px;
     border-bottom: 2px solid #dddddd;
+    background-color: #ffffff;
+    
 }
 
 #wrap #nav {
     text-decoration: none;
     border-bottom: 2px solid #dddddd;
+    background-color: #ffffff;
 }
 
-#wrap #content {
+#wrap #contents {
+    padding: 30px 10px 10px 10px;
+    background-color: #ffffff;
 }
 
 #wrap #footer {
-    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    color: #999999;
     border: 1px solid #999999;
+    background-color: #ffffff;
+    text-align: center;
 }
 
+#contents2{
+    background-color: #ffffff;
+}
 
 /***********************
 clearfix */
@@ -101,7 +114,7 @@ ul>li>a{}
     float: left;
     margin: 0px 0px 0px 10px;
     padding: 5px 10px 5px 10px;
-    border: 1px solid #000000;
+    border: 1px solid #999999;
     border-radius: 3px;
     font-size: 10px;
 }
@@ -129,12 +142,67 @@ nav */
 
 /***********************
 content */
+#contents #profile{
+    width: 300px;
+    margin: 0px 30px 0px 0px;
+    float: left;
+}
+
+#contents .greeting-box{
+    float: left;
+    font-size: 18px;
+}
+
+#contents #greeting{
+ font-weight: bold;
+}
+
+
+/***********************
+footer */
+
+#footer >p{
+    font-size: 10px;
+}
 
 
 
 
 /***********************
-footer */
+cotents2 */
+
+#contents2 div{
+    /*border: 1px solid #000000;*/
+}
+
+#contents2 #sideA{
+    width: 180px;
+    float: left;
+}
+
+#contents2 #main{
+    width: 816px;
+    float: left;
+}
+
+#contents2 #sideA h2{
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    background-color: #dddddd;
+}
+
+#contents2 #sideA ul{
+    width: 160px;
+}
+#contents2 #sideA ul>li{
+    padding: 8px 0px 8px 10px;
+    margin: 5px 0px 0px 0px;
+    border: 1px solid #a6a6a6;
+}
 
 
 

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/**************************************
+공통 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, 
+input, fieldset, legend, p, select, table, th, td, tr, 
+textarea, button, form {
+    margin: 1px;
+    padding: 0px; 
+ }
+body{
+    background-color: #ffffff;
+    font-family: "맑은고딕";
+    font-size: 12px;
+}
+/**************************************
+clearfix */
+.clearfix::before, .clearfix::after{
+    display: block;
+    content: "";
+    line-height: 0;
+}
+
+.clearfix::after{
+    clear: both;
+}
+
+
+/**************************************
+레이아웃 */
+
+
+
+/**************************************
+ */
+
+
+/**************************************
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
