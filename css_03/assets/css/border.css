@@ -25,31 +25,38 @@ clearfix */
     clear: both;
 }
 
+#main2{
+    border-bottom: 1px solid #999999;
+}
+
 #main h3{
     width: 661px;
     font-size: 20px;
     float: left;
-    margin: 10px 0px 3px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
-#main ol{
+#main ul{
     margin: 20px 0px 0px 3px;
+    padding-top: 17px;
 }
 
-#main ol>li{
-    padding: 0px 5px 0px 0px;
+#main ul>li{
     list-style-type: none;
     float: left;
+    padding: 0px 5px 0px 0px;
   }
 
-#main ol>li::after{
+#main ul>li::after{
     content: ">";
     padding: 0px 0px 0px 5px;
 }
 
-#main ol>li:last-child::after{
+#main ul>li:last-child::after{
     content: "";
 }
+
+
 
 #find-group{
     float: right;
@@ -58,7 +65,6 @@ clearfix */
 #find-button{
     width: 50px;
     height: 25px;
-    margin-top: 3px;
 }
 
 #find-text{
@@ -100,9 +106,10 @@ table>thead>tr>th, table>tbody>tr>td{
 }
 
 #table-num>ol{
+    list-style-type: none;
     margin: 0 auto;
-    width: 25%;
-    background-color: aqua;
+    width: 30%;
+    padding: 0px 0px 0px 60px;
 }
 
 #table-num>ol>li{
@@ -121,10 +128,34 @@ table>thead>tr>th, table>tbody>tr>td{
 }
 
 
+#img-button{
+    float: right;
+    margin: 10px 0px 10px 0px;
+}
+#img-button>button{
+    width: 100px;
+    height: 30px;
+}
 
+#img-board{
+    width: 820px;
+    float: left;
+}
 
+#img-board>div{    
+    margin: 1px;
+    float: left;
+    border: 1px solid #999999;
+}
 
+#img-board>div>a>img{
+    width: 190px;
+    padding: 5px 5px 10px 5px;
+}
 
+#img-board>div>a>p{
+    font-size: 15px;
+}
 
 
 

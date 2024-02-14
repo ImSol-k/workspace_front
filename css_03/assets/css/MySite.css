@@ -14,7 +14,6 @@ textarea,button,form {
 body{
     font-family: "맑은고딕";
     font-size: 12px;
-    background-color: #79b30d;
 }
 a:link{
     text-decoration: none;
@@ -169,7 +168,6 @@ cotents2 */
 #contents2 #main{
     width: 816px;
     float: left;
-    border-bottom: 1px solid #999999;
 }
 
 #contents2 #sideA h2{
