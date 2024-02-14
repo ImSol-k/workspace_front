@@ -82,6 +82,7 @@ ul, ol{
 
 #contents2{
     background-color: #ffffff;
+    padding: 20px 0px 20px 0px;
 }
 
 /***********************
@@ -140,22 +141,7 @@ nav */
 
 
 
-/***********************
-content */
-#contents #profile{
-    width: 300px;
-    margin: 0px 30px 0px 0px;
-    float: left;
-}
 
-#contents .greeting-box{
-    float: left;
-    font-size: 18px;
-}
-
-#contents #greeting{
- font-weight: bold;
-}
 
 
 /***********************
@@ -172,7 +158,7 @@ footer */
 cotents2 */
 
 #contents2 div{
-    /*border: 1px solid #000000;*/
+    /*border: 1px solid #999999;*/
 }
 
 #contents2 #sideA{
@@ -183,6 +169,7 @@ cotents2 */
 #contents2 #main{
     width: 816px;
     float: left;
+    border-bottom: 1px solid #999999;
 }
 
 #contents2 #sideA h2{

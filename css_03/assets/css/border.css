@@ -25,34 +25,100 @@ clearfix */
     clear: both;
 }
 
+#main h3{
+    width: 661px;
+    font-size: 20px;
+    float: left;
+    margin: 10px 0px 3px 0px;
+}
 
-/**************************************
-레이아웃 */
+#main ol{
+    margin: 20px 0px 0px 3px;
+}
+
+#main ol>li{
+    padding: 0px 5px 0px 0px;
+    list-style-type: none;
+    float: left;
+  }
+
+#main ol>li::after{
+    content: ">";
+    padding: 0px 0px 0px 5px;
+}
+
+#main ol>li:last-child::after{
+    content: "";
+}
+
+#find-group{
+    float: right;
+}
+
+#find-button{
+    width: 50px;
+    height: 25px;
+    margin-top: 3px;
+}
+
+#find-text{
+    height: 25px;
+}
+
+#board-table{
+    float: left;
+    padding-top: 20px;
+}
+
+table{
+    width: 820px;
+    border:1px solid #dddddd;
+    border-collapse: collapse;
+}
+table>thead>tr{
+    background-color: #dddddd;
+}
+table>thead>tr>th{
+    font-weight: bold;
+}
+table>thead>tr>th, table>tbody>tr>td{
+    border:1px; 
+    border-top-style: solid;
+    border-bottom-style: solid; 
+    border-color: #999999;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+}
+.text-left{
+    text-align: left;
+    text-decoration-line: none;
+    color: #000000;
+}
+
+#table-num{
+}
+
+#table-num>ol{
+    margin: 0 auto;
+    width: 25%;
+    background-color: aqua;
+}
+
+#table-num>ol>li{
+    list-style-type: none;
+    float: left;
+    padding-left: 10px;
+}
 
 
-
-/**************************************
- */
-
-
-/**************************************
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#write-button{
+    float: right;
+}
+#write-button>button{
+    width: 60px;
+    height: 30px;
+}
 
 
 
