@@ -27,7 +27,7 @@ a:visited{
 }
 
 a:hover{
-    text-align: center;
+    text-decoration: none;
     color: #000000;    
 }
 
@@ -72,11 +72,14 @@ ul, ol{
 }
 
 #wrap #footer {
+    width: 1000px;
     padding: 10px 10px 10px 10px;
+    margin-top: 20px;
     color: #999999;
-    border: 1px solid #999999;
-    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    background-color: #dddddd;
     text-align: center;
+    float: left;
 }
 
 #contents2{
@@ -84,8 +87,6 @@ ul, ol{
     padding: 20px 0px 20px 0px;
 }
 
-/***********************
-clearfix */
 .clearfix::before, .clearfix::after{
     display: block;
     content: "";
@@ -96,9 +97,6 @@ clearfix */
     clear: both;
 }
 
-
-/***********************
-headr */
 #header h1>a{
     font-size: 35px;
     color: #79b30d;
@@ -106,7 +104,7 @@ headr */
 }
 #header ul{
     float: right;
-    margin: 14px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
 #header ul>li{
@@ -118,11 +116,6 @@ headr */
     font-size: 10px;
 }
 
-
-
-
-/***********************
-nav */
 #nav ul{
     padding: 10px 0px 10px 0px;
     
@@ -137,26 +130,8 @@ nav */
     
 }
 
-
-
-
-
-
-/***********************
-footer */
-
 #footer >p{
     font-size: 10px;
-}
-
-
-
-
-/***********************
-cotents2 */
-
-#contents2 div{
-    /*border: 1px solid #999999;*/
 }
 
 #contents2 #sideA{
@@ -165,7 +140,7 @@ cotents2 */
 }
 
 #contents2 #main{
-    width: 816px;
+    width: 814px;
     float: left;
 }
 
@@ -187,6 +162,9 @@ cotents2 */
     margin: 5px 0px 0px 0px;
     border: 1px solid #a6a6a6;
 }
+
+
+
 
 
 

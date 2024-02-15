@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+#member{
+    width: 570px;
+    margin: 0 auto;
+    padding-top: 25px;
+    border: 1px solid #999999;
+}
+
+#member #inbtn{
+    width: 100px;
+    height: 30px;
+    margin: 0% 0% 10% 40%;
+
+}
+
+#member div{
+    margin: 0 13%;
+}
+
+#member input[type="text"], input[type="password"]{
+    height: 27px;
+}
+
+#member #userid{
+    font-weight: bold;
+}
+
+
+.memtag{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    margin: 20px 20px 20px 0px;
+}
+
+#member #inbtn{
+    margin-top: 40px;
+}
+
+
+

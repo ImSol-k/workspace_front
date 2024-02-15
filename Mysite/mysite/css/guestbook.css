@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+#book table {
+    width: 810px;
+    border: 1px solid #999999;
+    border-collapse: collapse;
+    margin: 0px 0px 20px 0px;
+}
+
+#book table td {
+    border: 1px solid #999999;
+    margin: 0px;
+    padding: 3px;
+}
+
+#book table td input {
+    width: 250px;
+    height: 20px;
+    float: right;
+}
+
+#book textarea {
+    width: 800px;
+}
+
+
+#book button {
+    width: 100px;
+    height: 35px;
+    margin: 0% 0% 0% 43%;
+}
+
+#img-btn button {
+    width: 100px;
+    height: 30px;
+    float: right;
+}
+
+#img-board {
+    width: 820px;
+    margin-top: 60px;
+}
+
+#img-board>div {
+    
+    margin: 1px;
+    float: left;
+    border: 1px solid #999999;
+}
+
+#img-board img {
+    width: 190px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -79,6 +79,8 @@ clearfix */
 table{
     width: 820px;
     border:1px solid #dddddd;
+    border-left: none;
+    border-right: none;
     border-collapse: collapse;
 }
 table>thead>tr{
@@ -87,6 +89,7 @@ table>thead>tr{
 table>thead>tr>th{
     font-weight: bold;
 }
+
 table>thead>tr>th, table>tbody>tr>td{
     border:1px; 
     border-top-style: solid;
