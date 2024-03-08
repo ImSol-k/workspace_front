@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html long="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+
+    //전역변수,지역변수 
+    //전역변수 선언 ==========================================
+    let str = "global";
+    //재정의 =================================================
+    function checkScope() {
+        //전역변수와 같은 이름의 변수가 지역변수로 정의되어있으면
+        //지역변수가 우선순위
+        //변경이 아닌 str이라는 변수를 재정의
+        let str = "local";
+        console.log("checkScope():",str);
+    }
+    //실행 ===================================================
+    checkScope();
+    console.log("전역:",str);
+    
+    //값변경 =================================================
+    function checkScope1() {
+        //전역변수의 str값을 변경
+        str = "local";
+        console.log("checkScope1():",str);
+    }
+    //실행 ===================================================
+    checkScope1();
+    console.log("전역:",str);
+
+</script>
+
+</html>

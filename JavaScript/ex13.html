@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html long="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+    //변수 테스트
+    let x;
+
+    function testFunction(){
+        let y;
+
+        x = 10;
+        y = 20;
+        z = 30;
+
+        if(y==20){
+            let b =40;
+            b++;
+            console.log("b=", b);   
+        }
+        //지역변수는 지역 안에서만 사용가능
+        //console.log("b=", b); 
+        console.log("x=", x);
+        console.log("y=", y);
+        console.log("z=", z);
+    }
+    testFunction();
+    /*****************************************
+     * -결과 예상
+     * b= 41
+     * x= 10
+     * y= 20
+     * z= 30
+     * **************************************/
+</script>
+</html>

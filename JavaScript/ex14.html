@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html long="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+    //배열 ====================================
+    //new 선언 ================================
+    console.log("= new선언 ===================");
+    let arr01 = new Array();
+    //초기화
+    arr01[0] = 1;
+    arr01[1] = 100;
+    //출력
+    console.log("arr01[0]:",arr01[0]);
+    console.log("arr01[1]:",arr01[1]);
+    
+    //[] 선언 =================================
+    console.log("= [] 선언 ===================");
+    let arr02 = [];
+    //초기화
+    arr02[0] = 5;
+    arr02[1] = 23;
+    //출력
+    console.log("arr02[0]:",arr02[0]);
+    console.log("arr02[1]:",arr02[1]);
+    
+    //선언과동시에 초기화 ======================
+    console.log("= 선언 초기화 동시 ===========");
+    let arr03 = [10, 20, 30, 40];
+    //for문출력
+    for(let i = 0; i < arr03.length; i++){
+        console.log("arr03["+i+"]:",arr03[i]);
+    }
+    
+    // 자료형 상관없이 사용 가능 ================
+    console.log("= 자료형 섞어서 사용가능 ======");
+    let arr04 = [];
+    arr04[0] = 1;
+    arr04[1] = "녕안녕";
+    arr04[2] = 3.5;
+    arr04[3] = "배열이지롱~";
+    arr04[4] = 1<10;
+    for(let i = 0; i < arr04.length; i++){
+        console.log("arr04["+i+"]:",arr04[i]);
+    }
+    
+    //2차원 배열 ===============================
+    console.log("= 2차원 배열 ================");
+    let arr05 = [1, 2.5, "안녕", ["김", "소", "리"], 5>23];
+    console.log(arr05[1]);
+    console.log(arr05[3][0]+arr05[3][1]+arr05[3][2]);
+    
+    //자동배치 =================================
+    //자동으로 배열 마지막순서에 배치시킴push
+    console.log("= 자동배치 ==================");
+    let nameArr = [];
+    nameArr.push("이준기");
+    nameArr.push("이지연");
+    console.log(nameArr);
+    //pop:마지막배열 삭제
+    nameArr.pop();
+    console.log(nameArr);
+    
+</script>
+</html>

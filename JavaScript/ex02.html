@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html long="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+
+<body>
+    <h1>JAVA Script</h1>
+</body>
+<script>
+    console.log("======================================");
+    console.log("#변수선언");
+    
+    //값을 대입하면 자료형이 결정된다
+    console.log("#var 같은이름 변수선언 가능(덮어쓰기됨)");
+    var no = 3;
+    var str = "안녕하세요";
+    var boo = 3 > 5;
+    
+    console.log(no, typeof no);
+    console.log(boo, typeof boo);
+    console.log("변경전:", str);
+    
+    var str = "안녕하다";
+    console.log("변경후:",str);
+    console.log(typeof str);
+    
+    
+    //값을 대입하면 자료형이 결정된다
+    console.log("#let 같은이름 변수선언 불가능");
+    let person = "김소리";
+    let num = 523;
+
+    console.log(person, typeof person);
+    console.log(num, typeof num);
+
+    //차이점
+    console.log("======================================");
+    console.log("#undefind, null");
+
+    //값이 대입되지 않았을때 undefind
+    let var1;
+    console.log(var1);
+
+    //null은 null값을 넣어줘야함
+    let var2=null;
+    console.log(var2)
+
+
+
+</script>
+
+</html>

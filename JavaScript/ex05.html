@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html long="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+    //코드 입력받기
+    let code = window.prompt("과목코드를 입력하세요");
+    console.log(code);
+    //입력받은 코드 int형으로 변환
+    let no = Number.parseInt(code)
+    switch (no) {
+        case 1:
+            console.log("R101호");
+            break;
+        case 2:
+            console.log("R102호");
+            break;
+        case 3:
+            console.log("R103호");
+            break;
+        case 4:
+            console.log("R104호");
+            break;
+        default:
+            console.log("상담원에게 문의하세요.");
+            break;
+    }
+
+</script>
+
+</html>

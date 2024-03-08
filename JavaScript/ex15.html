@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html long="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+    //객체 =================================
+    //정의
+    let guest = {
+        name : "김소리",
+        id : "aa12",
+        content : "안녕하세요~",
+        showInfo :function(){
+            console.log("== info ===============")
+            console.log("name: "+this.name);
+            console.log("id: "+this.id);
+            console.log("content: "+this.content);
+        }
+    };
+    //사용
+    guest.showInfo();
+</script>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html long="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+    //구구단 출력하기
+    console.log("=====================================");
+
+    for(let dan = 2; dan <= 9; dan++){
+        for(let i = 1; i <= 9; i++){
+            //&nbsp; 공백문자
+            document.write(dan,"*",i,"=",dan*i,"&nbsp;&nbsp;&nbsp;")
+        }
+        //JS개행방법 html안에서 script를 사용하기때문에
+        //html명령을 사용해서 개행한다
+        document.write("<br />");
+    }
+
+</script>
+</html>
