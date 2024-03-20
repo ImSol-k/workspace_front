@@ -9,13 +9,13 @@
     <h1>JAVAScript</h1>
 </body>
 <script>
-    //객체 =================================
+    //객체 ====================================
     //정의
     let guest = {
         name : "김소리",
         id : "aa12",
         content : "안녕하세요~",
-        showInfo :function(){
+        showInfo :function(a, b){
             console.log("== info ===============")
             console.log("name: "+this.name);
             console.log("id: "+this.id);
@@ -24,5 +24,24 @@
     };
     //사용
     guest.showInfo();
+    
+    //값 변경
+    guest.id = "asdf12"
+    guest.showInfo();
+
+    // 선언없이 사용 ===========================
+    let guest2 = {};
+    guest2.name = "김소리";
+    guest2.id = "1234";
+    guest2.content = "다녀갑니다~";
+    guest2.showInfo = function(){
+        console.log("이름 : " +this.name);
+        console.log("id : " + this.id);
+        console.log("content : " + this.content);
+    }
+
+    console.log(guest2);
+    guest2.showInfo();
+
 </script>
 </html>

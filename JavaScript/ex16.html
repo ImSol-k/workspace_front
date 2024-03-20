@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html long="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+    /*******************************
+     * personList만들기
+     * *****************************/
+    let personList = [];
+    let personVo1 = {
+        no : 1,
+        name : "짱구",
+        hp : "010-1234-3423",
+        company : "02-123-3423",
+        showInfo : function(){
+            console.log("no : "+ this.no);
+            console.log("name : "+ this.name);
+            console.log("hp : "+ this.hp);
+            console.log("company : "+ this.company);
+        }
+    };
+    let personVo2 = {
+        no : 2,
+        name : "유리",
+        hp : "010-5432-3423",
+        company : "02-324-3423",
+        showInfo : function(){
+            console.log("no : "+ this.no);
+            console.log("name : "+ this.name);
+            console.log("hp : "+ this.hp);
+            console.log("company : "+ this.company);
+        }
+    };
+    let personVo3 = {
+        no : 3,
+        name : "철수",
+        hp : "010-7653-3423",
+        company : "02-543-3423",
+        showInfo : function(){
+            console.log("no : "+ this.no);
+            console.log("name : "+ this.name);
+            console.log("hp : "+ this.hp);
+            console.log("company : "+ this.company);
+        }
+    };
+    let personVo4 = {
+        no : 4,
+        name : "맹구",
+        hp : "010-0952-3423",
+        company : "02-895-3423",
+        showInfo : function(){
+            console.log("no : "+ this.no);
+            console.log("name : "+ this.name);
+            console.log("hp : "+ this.hp);
+            console.log("company : "+ this.company);
+        }
+    };
+
+    personList = [personVo1, personVo2, personVo3, personVo4];
+
+    for(let i = 0; i<personList.length; i++){
+        console.log("===========================")
+        personList[i].showInfo();
+    }
+
+</script>
+</html>

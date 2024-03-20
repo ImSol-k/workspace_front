@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html long="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+<body>
+    <h1>p추가문법</h1>
+</body>
+<script>
+    /***********************************
+     * 기명함수
+     */
+    function plusf(a, b){
+        sum = a + b;
+        return sum;
+    }
+    console.log(plusf(50, 1));
+
+    /***********************************
+     * 익명함수
+     */
+    let plus = function(a,b){
+        sum = a + b;
+        return sum;
+    }
+    console.log("plus():",plus(2, 4));
+
+    /***********************************
+     * 화살표함수
+     */
+    let plusl = (a, b) => {
+        let sum = a + b;
+        return sum;
+    }
+    console.log("plusl=>:",plusl(4, 3));
+
+    let circleArea = function(r){
+        let area = r * r * 3.14;
+        return area;
+    }
+    console.log("circleArea():",circleArea(4));
+
+    let circleArea1 = (r) => {
+        let area = r * r * 3.14;
+        return area;
+    }
+    console.log("circleArea1=>:", circleArea1(5));
+
+    //파라미터가 하나면 괄호생략 가능
+    let circleArea2 = r =>{
+        let area = r * r * 3.14;
+        return area;
+    }
+    console.log("circleArea2=>:", circleArea2(3));
+    
+    //줄이기 가능 
+    //리턴값 있이 줄이기
+    let circleArea3 = r => { return r*r*3.14; }
+    console.log("circleArea3=>:", circleArea3(3));
+
+    //리턴 없이 줄이기
+    let circleArea4 = r => r*r*3.14;
+    console.log("circleArea4=>:", circleArea4(3));
+
+    let sayHello = function(){
+        console.log("sayHello");
+    }
+    sayHello();
+
+    let sayHello2 = () => { console.log("sayHello2"); }
+    sayHello2();
+
+    let sayHello3 = () => console.log("sayHello3");
+    sayHello3();
+
+</script>
+</html>

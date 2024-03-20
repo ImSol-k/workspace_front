@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html long="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트</title>
+</head>
+
+<body>
+    <h1>JAVAScript</h1>
+</body>
+<script>
+
+    /************************************************************
+     * date객체 
+     * - 기본으로 한국 표준시를 보여줌
+     * - Thu Jan 01 1970 09:00:00 GMT+0900 (한국 표준시)를 기준으로
+     *   숫자로 계산된다
+     ************************************************************/
+    let date = new Date();
+    console.log(date);
+
+    //날짜 불러오기
+    let year = date.getFullYear();
+    let month = date.getMonth() + 1;
+    let day = date.getDate();
+    console.log("날짜 [ " + year + "/" + month + "/" + day + " ]");
+    
+    //시간 불러오기
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    let secoend = date.getSeconds();
+    console.log("시간 [ " + hour + ":" + minute + ":" + secoend + " ]");
+    
+    //숫자로 날짜계산
+    let date0 = new Date(1720000000000);
+    console.log(date0)
+
+    /***********************************
+     * 문자열
+     ***********************************/
+    console.log("=================================================");
+    let str = "Hello";
+    console.log("str.length : " + str.length);
+    //문자열 자체로도 lenth계산 가능
+    console.log("Hello.length : " + "Hello".length);
+    //문자열의 ()번째 글자
+    console.log("990534-2222222".charAt(7));
+    
+    /***********************************
+     * 숫자
+     * - 문자열의숫자 + 숫자 = 문자열
+     ***********************************/
+    console.log("=================================================");
+    let num01 = "100";
+    let num02 = 5;
+    //문자열과 숫자를 더하면 문자열이 더해진다
+    let num03 = num01 + num02;
+    //문자열을 숫자로 형변환
+    let num04 = Number(num01) + num02;
+    //둘의 차이점
+    console.log("num01 + num02 = " + num03);
+    console.log("Number(num01) + num02 = " + num04);
+    
+    //소숫점 형변환
+    let num1 = "105.5";
+    //Number은 소수점 그대로 형변환시켜줌
+    let num2 = Number(num1);
+    //perseInt는 소숫점을 없애버린다
+    let num3 = parseInt(num1);
+    console.log(num1 + " / " + num2 + " / " + num3);
+    
+    /********************************
+     * 수학
+     ********************************/
+    console.log("=================================================");
+    let pi = Math.PI;
+    console.log("PI : " + pi);
+    //소숫점
+    console.log("절댓값(abs) : " + Math.abs(-123));
+    console.log("올림(ceil) : " + Math.ceil(123.456));
+    console.log("내림(floor) : " + Math.floor(123.456));
+    console.log("반올림(round) : " + Math.round(123.456));
+    //랜덤함수
+    console.log("random : " + Math.random());
+    
+</script>
+
+</html>
